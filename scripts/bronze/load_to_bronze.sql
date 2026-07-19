@@ -1,5 +1,4 @@
-EXEC BRONZE.load_bronze;
-
+-- This script for ectract data from differnt sources to staging tables in bronze layer
 CREATE OR ALTER PROCEDURE bronze.load_bronze As
 BEGIN
 PRINT '=================================================================='
